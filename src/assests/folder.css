@@ -1,0 +1,31 @@
+.card-wrapper{
+    width: 300px;
+    
+}
+.card-wrapper .card{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 12px;
+    
+}
+.card-wrapper .card .name-wrapper{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.operation >button{
+    cursor: pointer;
+}
+.operation >button:first-child{
+    margin-right: 12px;
+}
+.card-wrapper .card .name-wrapper .name{
+    padding-left: 12px;
+}
+.child{
+    padding-left: 23px;
+}
